@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="8">
+ <editorsettings>
+  <export target="map1.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="game-tiles" tilewidth="32" tileheight="32" tilecount="220" columns="20">
+  <image source="Nature_TileSet.png" width="640" height="352"/>
+ </tileset>
+ <layer id="1" name="collisionLayer" width="30" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61,62,62,
+22,27,0,0,0,0,61,62,63,0,0,0,61,62,62,62,62,63,0,0,0,0,0,0,0,0,0,81,82,82,
+22,27,0,61,62,62,106,82,104,62,62,62,106,82,82,82,82,104,62,63,0,9,7,0,9,62,62,106,82,82,
+22,27,0,101,102,102,102,102,102,102,102,102,102,102,102,102,102,102,102,103,0,0,0,0,29,82,82,82,82,82,
+22,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,82,82,82,82,82,
+82,44,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,46,82,82,82,82,82
+</data>
+ </layer>
+ <objectgroup id="2" name="objectLayer">
+  <object id="1" name="playerSpawn" type="player" x="33.8541" y="30.8448">
+   <point/>
+  </object>
+  <object id="2" name="potion" type="potion" x="239.988" y="58.6804">
+   <point/>
+  </object>
+  <object id="3" name="potion" type="potion" x="608.621" y="91.0299">
+   <point/>
+  </object>
+  <object id="4" name="potion" type="potion" x="355.092" y="190.335">
+   <point/>
+  </object>
+  <object id="5" name="potion" type="potion" x="925.345" y="30.8448">
+   <point/>
+  </object>
+  <object id="6" name="snakeSpawn" type="snake" x="128.646" y="77.4882">
+   <point/>
+  </object>
+  <object id="7" name="snakeSpawn2" type="snake" x="704.917" y="184.317">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
